@@ -246,8 +246,10 @@ window.addEventListener("scroll", async (e) => {
   }
   if (!nextPageUrl)
     $loadMore.innerHTML = `
-    <p class="body-medium info-text warning">
-        No More Recipes -_-
-    </p>
+    <div class="warning">
+      <p class="body-medium info-text">
+          No More Recipes -_-
+      </p>
+    </div>
   `;
 });

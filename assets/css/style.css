@@ -1,16 +1,4 @@
 /*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2023 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
@@ -198,6 +186,10 @@ html {
   font-size: var(--fs-base);
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background-color: var(--primary);
 }
 
 ::-webkit-scrollbar {
